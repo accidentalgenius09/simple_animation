@@ -2,7 +2,7 @@ html,body{
     margin: 0%;
 }
 body{
-    background-image: url("bg.jpg");
+    background-image: url("https://github.com/accidentalgenius09/simple_animation/blob/main/bg.jpg?raw=true");
     background-repeat: no-repeat;
     background-position:unset;
     background-size : cover;
