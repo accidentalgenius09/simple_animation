@@ -1,0 +1,24 @@
+html,body{
+    margin: 0%;
+}
+#bg{
+    width: 1520px;
+    height: 715px;
+}
+
+.rock{
+    position:absolute;
+    top: 590px;
+    left: 760px;
+    height: 130px;
+    transform: translateX(-50%);
+    animation: fly 2s ease-in;
+}
+@keyframes fly {
+    0% {
+        transform: translate(-50%,0)
+    }
+    100% {
+        transform: translate(-50%,-100vh);
+    }
+}
