@@ -1,9 +1,11 @@
 html,body{
     margin: 0%;
 }
-#bg{
-    width: 1520px;
-    height: 715px;
+body{
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-position:unset;
+    background-size : cover;
 }
 
 .rock{
